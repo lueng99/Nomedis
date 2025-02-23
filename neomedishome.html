@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Neomedis Nexus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+            padding: 0;
+            line-height: 1.6;
+            background-size: 200px 200px;
+            border-left: 40px solid #3CBDB7;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: white;
+            z-index: 1000;
+            text-align: center;
+            padding: 10px 0;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            margin: 0;
+            color: #333;
+        }
+        .nav-bar {
+            position: fixed;
+            top: 70px;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 70px;
+            z-index: 999;
+        }
+        .nav-bar a {
+            flex-grow: 1;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .nav-bar a:hover {
+            background-color: #3CBDB7;
+        }
+        .content {
+            margin-top: 120px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Manual de Neomedis Nexus</h1>
+    </div>
+    
+    <nav class="nav-bar">
+        <a href="archivos/inicio.pdf" target="_blank">Inicio</a>
+        <a href="archivos/ayuda.pdf" target="_blank">Ayuda</a>
+        <a href="archivos/sobre-nosotros.pdf" target="_blank">Sobre Nosotros</a>
+        <a href="archivos/contacto.pdf" target="_blank">Contacto</a>
+    </nav>
+    
+    <div class="content">
+        <p><b>Bienvenido</b> al manual de nuestro sistema operativo de <i>apoyo sanitario</i>. Aquí encontrarás toda la información necesaria.</p>
+        
+        <div class="section">
+            <h2>1. Introducción</h2>
+            <p>Este sistema operativo ha sido diseñado para facilitar el apoyo sanitario, permitiendo gestionar información médica y coordinar recursos de salud.</p>
+        </div>
+        
+        <div class="section">
+            <h2>2. Instalación</h2>
+            <p>Pasos detallados para instalar el sistema en hospitales, clínicas y dispositivos médicos.</p>
+        </div>
+        
+        <div class="section">
+            <h2>3. Configuración Inicial</h2>
+            <p>Guía para la configuración del sistema según las necesidades del centro sanitario.</p>
+        </div>
+        
+        <div class="section">
+            <h2>4. Interfaz de Usuario</h2>
+            <p>Descripción de los elementos de la interfaz y cómo interactuar con ellos para una gestión eficiente del apoyo sanitario.</p>
+        </div>
+        
+        <div class="section">
+            <h2>5. Administración del Sistema</h2>
+            <p>Gestión de usuarios, permisos y acceso a datos médicos de forma segura.</p>
+        </div>
+        
+        <div class="section">
+            <h2>6. Solución de Problemas</h2>
+            <p>Lista de problemas comunes en el ámbito sanitario y cómo resolverlos.</p>
+        </div>
+    </div>
+</body>
+</html>
