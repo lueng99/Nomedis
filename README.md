@@ -8,8 +8,8 @@ Steps to run it on debian/MacOS/fedora
 3) run `bash debian_setup.sh` or `bash mac_setup.sh` or `bash fedora_setup.sh` on your terminal depending on your system
 4) Now you're done with the installation process
 5) Insert the following command or your sh variables for your operating system
-`
+
 bash wiki.sh 
 
-`
+
 
