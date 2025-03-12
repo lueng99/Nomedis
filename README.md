@@ -1,4 +1,6 @@
-# Wiki
+# Nomedis
+
+##Wiki
 A command line tool to access wikipedia
 
 Steps to run it on debian/MacOS/fedora
@@ -10,6 +12,12 @@ Steps to run it on debian/MacOS/fedora
 5) Insert the following command or your sh variables for your operating system
 
 bash wiki.sh 
+
+
+##Fichaje
+Para poder fichar lo que debe realizar es lo siguiente:
+bash fichaje.sh
+cuando lo haga se iniciara un temporizador de 8 horas en su terminal, pasadas las 4 horas se iniciara un tiempo de hora y media para que ud pueda comer, cuando finalice su paron el tiempo volvera a correr y pasadas las 8 horas totales empezara a sumar las horas extra, solo cuando pase de 45 minutos extra esas horas que realiza contaran.
 
 
 
