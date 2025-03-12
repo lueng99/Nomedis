@@ -21,6 +21,6 @@ bash fichaje.sh
 cuando lo haga se iniciara un temporizador de 8 horas en su terminal, pasadas las 4 horas se iniciara un tiempo de hora y media para que ud pueda comer, cuando finalice su paron el tiempo volvera a correr y pasadas las 8 horas totales empezara a sumar las horas extra, solo cuando pase de 45 minutos extra esas horas que realiza contaran.
 
 
-Este proyecto mas concretamente el apartado de la wiki ha sido posible gracias a un anitguo proyecto conocido como wiki bash cuyo repositorio es el siguiente: https://github.com/lueng99/Nomedis/tree/main
+Este proyecto mas concretamente el apartado de la wiki ha sido posible gracias a un anitguo proyecto conocido como wiki bash cuyo repositorio es el siguiente: https://github.com/vaithak/Wiki-bash/tree/master
 
 
