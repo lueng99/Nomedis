@@ -12,5 +12,8 @@ Example of using this tool (run the below command in terminal)
 
 `
 bash wiki.sh 
+
+`
+`
 Ironman
 `
