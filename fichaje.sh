@@ -7,6 +7,12 @@ start_time=$(date +%s)
 paused=false
 
 echo "Iniciando fichaje. Ya puedes trabajar, en 4 horas tendrás tu descanso para comer."
+while [ $espera -gt 0 ]; do
+    echo "Abriendo nueva terminal en $espera segundos..."
+    sleep 1
+    ((espera--))
+done
+gnome-terminal &
 
 while true; do
     current_time=$(date +%s)
