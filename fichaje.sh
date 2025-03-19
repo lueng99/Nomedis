@@ -12,7 +12,7 @@ while [ $espera -gt 0 ]; do
     sleep 1
     ((espera--))
 done
-gnome-terminal &
+gnome-terminal &  #para windows: cmd.exe /c start wt                  para mac: open -a Terminal .
 
 while true; do
     current_time=$(date +%s)
