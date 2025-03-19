@@ -9,7 +9,7 @@ install() {
     mkdir -p "$INSTALL_DIR"    
     touch "$INSTALL_DIR/archivo1.txt"
     touch "$INSTALL_DIR/archivo2.txt"
-    echo "Instalación completada en $Nomedis_LIB"
+    echo "Instalación completada en $INSTALL_DIR"
 }
 
 # Función para desinstalar
